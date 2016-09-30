@@ -15,6 +15,7 @@
 		8A4482521D9A794600C5B292 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A4482501D9A794600C5B292 /* LaunchScreen.storyboard */; };
 		8A44825D1D9A794600C5B292 /* ModelViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A44825C1D9A794600C5B292 /* ModelViewSampleTests.m */; };
 		8A4482681D9A794600C5B292 /* ModelViewSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4482671D9A794600C5B292 /* ModelViewSampleUITests.m */; };
+		8A4482771D9B9EF300C5B292 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A4482761D9B9EF300C5B292 /* RegisterViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8A4482631D9A794600C5B292 /* ModelViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A4482671D9A794600C5B292 /* ModelViewSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelViewSampleUITests.m; sourceTree = "<group>"; };
 		8A4482691D9A794600C5B292 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A4482751D9B9EF300C5B292 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		8A4482761D9B9EF300C5B292 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				8A4482501D9A794600C5B292 /* LaunchScreen.storyboard */,
 				8A4482531D9A794600C5B292 /* Info.plist */,
 				8A4482421D9A794600C5B292 /* Supporting Files */,
+				8A4482751D9B9EF300C5B292 /* RegisterViewController.h */,
+				8A4482761D9B9EF300C5B292 /* RegisterViewController.m */,
 			);
 			path = ModelViewSample;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 				8A44824A1D9A794600C5B292 /* ViewController.m in Sources */,
 				8A4482471D9A794600C5B292 /* AppDelegate.m in Sources */,
 				8A4482441D9A794600C5B292 /* main.m in Sources */,
+				8A4482771D9B9EF300C5B292 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
